@@ -1,0 +1,114 @@
+/* nav */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  position: relative;
+}
+
+/* logo */
+.navbar .logo a {
+  color: var(--main-color);
+  font-size: 31px;
+  font-weight: bold;
+  font-family: "Caramel", cursive;
+}
+
+/* menu-but */
+.navbar .menu-but {
+  color: var(--main-color);
+  padding: 5px;
+  font-size: 30px;
+  user-select: none;
+  box-shadow: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar .menu-but {
+    display: none;
+  }
+}
+
+/* navbar links */
+.navbar .nav-links {
+  transition: 0.3s linear;
+  border-radius: 10px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+  overflow: hidden;
+  height: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.navbar .nav-links.show {
+  height: 170px;
+}
+@media (min-width: 768px) {
+  .navbar .nav-links {
+    position: static;
+    height: fit-content;
+    width: fit-content;
+    flex: 1;
+    transform: translateX(0);
+    box-shadow: none;
+  }
+}
+
+.navbar .nav-links ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .navbar .nav-links ul {
+    flex-direction: row;
+  }
+}
+.navbar .nav-links ul li {
+  width: 100%;
+}
+.navbar .nav-links ul a {
+  font-size: 19px;
+  font-weight: 500;
+  color: #333;
+  transition: 0.3s;
+  position: relative;
+  padding: 9px 5px;
+  width: 100%;
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .navbar .nav-links ul li {
+    width: fit-content;
+  }
+  .navbar .nav-links ul a {
+    width: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.navbar .nav-links ul a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background-color: var(--main-color);
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+.navbar .nav-links ul a:hover {
+  color: var(--main-color);
+}
+.navbar .nav-links ul a:hover::after {
+  width: 100%;
+}

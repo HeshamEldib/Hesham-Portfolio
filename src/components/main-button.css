@@ -1,0 +1,70 @@
+/* main button */
+.main-button {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .main-button {
+    text-align: center;
+  }
+}
+.main-button .magnet-button {
+  display: inline-block;
+  padding: 14px 52px 14px 35px;
+  border-radius: 40px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--main-color);
+  letter-spacing: 1px;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  text-wrap: nowrap;
+}
+.main-button .magnet-button .hover-filp-item {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+.main-button .magnet-button svg {
+  position: absolute;
+  top: 19%;
+  right: -25px;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.5s;
+}
+.main-button .magnet-button:hover {
+  background-color: var(--hover-color);
+}
+.main-button .magnet-button:hover svg {
+  color: #111;
+}
+.main-button .hover-filp-item span {
+  position: relative;
+  display: block;
+  transition: transform 1.2s cubic-bezier(0.19, 1, 0.22, 1),
+    -webkit-transform 1.2s cubic-bezier(0.19, 1, 0.22, 1),
+    -moz-transform 1.2s cubic-bezier(0.19, 1, 0.22, 1),
+    -o-transform 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.main-button .hover-filp-item span::before,
+.main-button .hover-filp-item span::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.main-button .hover-filp-item span::before {
+  top: 0;
+}
+.main-button .hover-filp-item span::after {
+  top: calc(110% + 17px);
+  color: #111;
+}
+.main-button .magnet-button:hover .hover-filp-item span {
+  transform: translateY(calc(-110% - 17px));
+}

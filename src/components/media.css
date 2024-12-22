@@ -1,0 +1,25 @@
+/* media */
+#media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  #media {
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    padding-left: 20px;
+  }
+}
+#media a {
+  margin: 0 15px;
+  display: inline-block;
+  color: #9ca3af;
+  font-size: 30px;
+}
+#media .linkedin:hover {
+  color: #0077b5;
+}
+#media .github:hover {
+  color: #6e5494;
+}
