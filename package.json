@@ -1,5 +1,6 @@
 {
   "name": "hesham-portfolio",
+  "homepage": "https://heshameldib.github.io/Hesham-Portfolio/",
   "private": true,
   "version": "2.2.0",
   "type": "module",
@@ -8,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
