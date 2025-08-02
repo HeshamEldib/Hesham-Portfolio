@@ -25,6 +25,7 @@ import image_git from "../public/skills/git.png";
 import image_github from "../public/skills/github.png";
 import image_graphql from "../public/skills/graphql.png";
 import image_jest from "../public/skills/jest.png";
+import image_wordpress from "../public/skills/wordpress.webp";
 
 export const projects: any[] = [
   {
@@ -117,4 +118,5 @@ export const skills: any[] = [
   { title: "GitHub", image: image_github },
   { title: "GraphQL", image: image_graphql },
   { title: "Jest", image: image_jest },
+  { title: "WordPress", image: image_wordpress },
 ];
