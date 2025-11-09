@@ -1,5 +1,5 @@
 import { skills } from "../data";
-import homeImg from "../../public/H55.png";
+import homeImg from "../../public/H68.png";
 import Media from "../components/Media";
 import "./home.css";
 
@@ -29,9 +29,9 @@ function TextContent() {
   return (
     <>
       <h1>
-        Front-End <br /> <span>React</span> Developer
+        Front-End <br /> <span>React & Next.js</span> Developer
       </h1>
-      <h6>Hi, I'm Hesham Eldib. I'm a Front End React Developer</h6>
+      <h6>Hi, I'm Hesham Eldib. I'm a Front End React & Next.js Developer</h6>
     </>
   );
 }
@@ -57,7 +57,7 @@ function Image() {
     <div className="image">
       <div className="cover">
         <figure>
-          <img src={homeImg} alt="" />
+          {/* <img src={homeImg} alt="" /> */}
         </figure>
       </div>
     </div>

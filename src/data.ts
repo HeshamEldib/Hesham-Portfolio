@@ -15,7 +15,6 @@ import image_ts from "../public/skills/ts.png";
 import image_bootstrap from "../public/skills/bootstrap.png";
 import image_tailwind from "../public/skills/tailwind-css.png";
 import image_sass from "../public/skills/sass.png";
-import image_jquery from "../public/skills/jquery.png";
 import image_react from "../public/skills/react.png";
 import image_redux from "../public/skills/redux.png";
 import image_node from "../public/skills/node.png";
@@ -25,9 +24,29 @@ import image_git from "../public/skills/git.png";
 import image_github from "../public/skills/github.png";
 import image_graphql from "../public/skills/graphql.png";
 import image_jest from "../public/skills/jest.png";
-import image_wordpress from "../public/skills/wordpress.webp";
+// import image_wordpress from "../public/skills/wordpress.webp";
+import image_next from "../public/skills/next.png";
+import image_rest_api from "../public/skills/rest_api.png";
 
-export const projects: any[] = [
+export const projects: {
+  id: string;
+  title: string;
+  poster: string;
+  description: string;
+  skills: string[];
+  github: string;
+  linkProject: string;
+}[] = [
+  {
+    id: "7",
+    title: "Online Shop",
+    poster: image_online_shop,
+    description:
+      "Welcome to our E-Commerce project! This project aims to create a fully functional online shopping platform where users can browse products, add them to their cart, and make purchases. Features => User authentication: Users can sign up and log in to their accounts. Product browsing: Browse through a variety of products categorized by type, brand, or price. Shopping cart: Add products to the cart, update quantities, and proceed to checkout. Checkout process: Enter shipping details, select payment method, and complete the purchase. Order history: View past orders and order details. Technologies => Used Frontend: React, Redux, HTML, CSS, JavaScript, TypeScricpt Backend: Node.js, Express.js, MongoDB Authentication: JSON Web Tokens (JWT) Payment processing: Stripe API Deployment: Heroku",
+    skills: ["html", "css", "js", "ts", "react", "node", "express", "mongodb"],
+    github: "https://github.com/HeshamEldib/online-shop/",
+    linkProject: "https://online-shop-ten-ashen.vercel.app/",
+  },
   {
     id: "1",
     title: "Elzero template three",
@@ -88,35 +107,26 @@ export const projects: any[] = [
     github: "https://github.com/HeshamEldib/Appyng",
     linkProject: "https://heshameldib.github.io/Appyng/",
   },
-  {
-    id: "7",
-    title: "Online Shop",
-    poster: image_online_shop,
-    description:
-      "Welcome to our E-Commerce project! This project aims to create a fully functional online shopping platform where users can browse products, add them to their cart, and make purchases. Features => User authentication: Users can sign up and log in to their accounts. Product browsing: Browse through a variety of products categorized by type, brand, or price. Shopping cart: Add products to the cart, update quantities, and proceed to checkout. Checkout process: Enter shipping details, select payment method, and complete the purchase. Order history: View past orders and order details. Technologies => Used Frontend: React, Redux, HTML, CSS, JavaScript, TypeScricpt Backend: Node.js, Express.js, MongoDB Authentication: JSON Web Tokens (JWT) Payment processing: Stripe API Deployment: Heroku",
-    skills: ["html", "css", "js", "ts", "react", "node", "express", "mongodb"],
-    github: "https://github.com/HeshamEldib/online-shop/",
-    linkProject: "https://online-shop-ten-ashen.vercel.app/",
-  },
 ];
 
-export const skills: any[] = [
+export const skills: { title: string; image: string }[] = [
+  { title: "Next.js", image: image_next },
+  { title: "React", image: image_react },
+  { title: "TypeScript", image: image_ts },
   { title: "HTML", image: image_html },
   { title: "CSS", image: image_css },
   { title: "JavaScript", image: image_js },
-  { title: "TypeScript", image: image_ts },
+  { title: "SASS", image: image_sass },
   { title: "Bootstrap", image: image_bootstrap },
   { title: "Tailwind CSS", image: image_tailwind },
-  { title: "SASS", image: image_sass },
-  { title: "jQuery", image: image_jquery },
-  { title: "React", image: image_react },
   { title: "Redux", image: image_redux },
   { title: "Node.js", image: image_node },
   { title: "Express", image: image_express },
   { title: "MongoDB", image: image_mongodb },
+  // { title: "REST API", image: image_rest_api },
+  { title: "GraphQL", image: image_graphql },
+  // { title: "WordPress", image: image_wordpress },
+  { title: "Jest", image: image_jest },
   { title: "Git", image: image_git },
   { title: "GitHub", image: image_github },
-  { title: "GraphQL", image: image_graphql },
-  { title: "Jest", image: image_jest },
-  { title: "WordPress", image: image_wordpress },
 ];

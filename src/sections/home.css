@@ -98,8 +98,7 @@
 /* image */
 .home .image {
   text-align: end;
-  margin-top: 40px;
-
+  margin-top: 45px;
   background-color: var(--main-color);
   border-radius: 50%;
 }
@@ -111,9 +110,28 @@
   }
 }
 
+.home .image .cover {
+  background-image: url(../../public/H68.png);
+  background-size: cover;
+  background-position: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  animation: shadow 2s infinite;
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 0 0 var(--main-color);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(59, 130, 246, 0);
+  }
+}
+
 @media (max-width: 768px) {
   .home .image .cover {
-    background-image: url(../../public/H53.png);
+    background-image: url(../../public/H68.png);
     background-size: cover;
     background-position: center;
     width: 280px;
