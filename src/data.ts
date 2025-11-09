@@ -24,9 +24,9 @@ import image_git from "../public/skills/git.png";
 import image_github from "../public/skills/github.png";
 import image_graphql from "../public/skills/graphql.png";
 import image_jest from "../public/skills/jest.png";
-// import image_wordpress from "../public/skills/wordpress.webp";
 import image_next from "../public/skills/next.png";
-import image_rest_api from "../public/skills/rest_api.png";
+// import image_wordpress from "../public/skills/wordpress.webp";
+// import image_rest_api from "../public/skills/rest_api.png";
 
 export const projects: {
   id: string;

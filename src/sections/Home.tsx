@@ -1,5 +1,4 @@
 import { skills } from "../data";
-import homeImg from "../../public/H68.png";
 import Media from "../components/Media";
 import "./home.css";
 
