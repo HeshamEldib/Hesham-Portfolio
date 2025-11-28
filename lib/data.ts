@@ -170,7 +170,7 @@ export const projects: Project[] = [
   {
     id: "2",
     title: "Liberty NFT Marketplace",
-    image: "/projects/Liberty-NFT-Marketplace.png",
+    image: "/projects/liberty-nft-marketplace.png",
     summary:
       "Liberty NFT Market is a professional website design for NFT related websites. This HTML CSS template.",
     skills: ["html", "css", "js"],
@@ -181,7 +181,7 @@ export const projects: Project[] = [
   {
     id: "3",
     title: "Cyborg Gaming",
-    image: "/projects/Cyborg.png",
+    image: "/projects/cyborg.png",
     summary:
       "Cyborg Gaming is a darkgray color free CSS template based on Bootstrap website layout.",
     skills: ["html", "css", "js"],
