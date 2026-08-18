@@ -5,9 +5,9 @@ import ProjectCard from "./ProjectCard";
 import FeaturedProject from "./FeaturedProject";
 
 export default function Projects() {
-  // تقسيم المشاريع: أول 2 مميزين، والباقي عادي
-  const featuredProjects = projects.slice(0, 2);
-  const standardProjects = projects.slice(2);
+  // تقسيم المشاريع: أول 3 مميزين، والباقي عادي
+  const featuredProjects = projects.slice(0, 3);
+  const standardProjects = projects.slice(3);
 
   return (
     <section id="projects" className="py-24 bg-gray-50">

@@ -9,13 +9,13 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 export const metadata: Metadata = {
   // العنوان الذي يظهر في المتصفح
   title: {
-    default: "Hesham Eldib | Front-End Developer",
+    default: "Hesham Eldib | Full-Stack Developer",
     template: "%s | Hesham Eldib", // سيظهر كـ "Sadeem Store | Hesham Eldib" في الصفحات الداخلية
   },
-  description: "Portfolio of Hesham Eldib, a Front-End Developer specializing in React, Next.js, and modern web technologies.",
+  description: "Portfolio of Hesham Eldib, a Full-Stack Developer specializing in React, Next.js, and modern web technologies.",
   
   // الكلمات المفتاحية لمحركات البحث
-  keywords: ["Hesham Eldib", "Front-End Developer", "React", "Next.js", "Portfolio", "Web Developer", "Egypt"],
+  keywords: ["Hesham Eldib", "Full-Stack Developer", "React", "Next.js", "Portfolio", "Web Developer", "Egypt"],
   
   // اسم المؤلف
   authors: [{ name: "Hesham Eldib" }],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
   // إعدادات المشاركة على السوشيال ميديا (Open Graph)
   openGraph: {
-    title: "Hesham Eldib | Front-End Developer",
+    title: "Hesham Eldib | Full-Stack Developer",
     description: "Check out my latest projects and skills.",
     url: "https://heshameldib.github.io", // أو رابطك الجديد بعد الرفع
     siteName: "Hesham Eldib Portfolio",

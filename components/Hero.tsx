@@ -32,8 +32,8 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-xl md:text-2xl text-gray-600 font-medium mb-8">
-            Front-End Developer{" "}
-            <span className="text-main">React & Next.js</span>
+            Full-Stack Developer{" "}
+            <span className="text-main">Next.js & TypeScript</span>
           </h2>
 
           <p className="text-gray-500 max-w-lg mb-10 text-lg leading-relaxed">
@@ -56,7 +56,7 @@ export default function Hero() {
             </Link>
 
             <a
-              href="/Hesham Eldib Front-End Web Developer Resume.pdf"
+              href="/Hesham Eldib Full-Stack Developer Resume.pdf"
               download
               className="group bg-white text-gray-900 border border-gray-300 px-8 py-3.5 rounded-full flex items-center gap-2 hover:border-main hover:text-main transition-colors duration-300 w-full sm:w-auto justify-center"
             >

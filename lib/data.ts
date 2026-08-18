@@ -60,6 +60,11 @@ export const skills: Skill[] = [
   // { title: "REST API", image: "/skills/rest-api.png" },
   { title: "GraphQL", image: "/skills/graphql.png" },
   // { title: "WordPress", image: "/skills/wordpress.png" },
+
+  { title: "Next.js API", image: "/skills/next.png" },
+  // { title: "Zustand", image: "/skills/zustand.png" },
+  { title: "Sanity.io", image: "/skills/sanity.png" },
+
   { title: "Jest", image: "/skills/jest.png" },
   { title: "Git", image: "/skills/git.png" },
   { title: "GitHub", image: "/skills/github.png" },
@@ -132,6 +137,50 @@ export const projects: Project[] = [
     ],
     github: "",
     linkProject: "https://sadeem-store.vercel.app/",
+    hasDetailsPage: true,
+  },
+  {
+    id: "9",
+    title: "Shifa | Clinic Management System",
+    image: "/projects/shifa.png",
+    summary:
+      "Graduation Project: A full-stack clinic management platform. Designed the relational database schema and architected the backend RESTful APIs, handling user authentication (JWT) and patient records.",
+    skills: [
+      "React.js",
+      "Redux Toolkit",
+      "RESTful APIs",
+      "SQL Server",
+      ".NET (Backend)",
+    ],
+    fullDescription: `
+    "Shifa" is a comprehensive Clinic Management System developed as my graduation project. The platform is designed to digitize and streamline healthcare administration, handling everything from patient registration to appointment scheduling and clinic management. I took full ownership of the backend architecture and its seamless integration with the React frontend, proving my ability to build and deliver end-to-end full-stack solutions.
+
+      Key Features:
+
+      - Robust API Architecture: Architected and developed a complete set of RESTful APIs from scratch using .NET, ensuring fast and reliable data flow between the server and the client.
+
+      - Relational Database Management: Designed a structured database schema using SQL Server to securely handle sensitive patient records, doctors' schedules, and administrative data.
+
+      - Secure Authentication: Implemented JSON Web Token (JWT) authentication and role-based access control to ensure data privacy and secure user sessions.
+
+      - Frontend Integration & State Management: Seamlessly connected the .NET backend with a React.js frontend, utilizing Redux Toolkit to efficiently manage complex global states across the application.
+
+    Technical Challenges & Achievements:
+
+      - The primary challenge was ensuring strict data consistency and security across a relational database while providing a fast, responsive user interface for clinic staff. 
+      - By meticulously designing the API endpoints and organizing the database relations, I successfully bridged the gap between a solid .NET backend and a dynamic React frontend. 
+      - This project deeply solidified my understanding of backend infrastructure, API design, and cross-stack integration in real-world enterprise scenarios.
+`,
+    gallery: [
+      // "/projects/shifa.png",
+      "/projects/shifa-1.png",
+      "/projects/shifa-2.png",
+      "/projects/shifa-3.png",
+      "/projects/shifa-4.png",
+      "/projects/shifa-5.png",
+    ],
+    github: "https://github.com/HeshamEldib/shifa.git",
+    linkProject: "https://github.com/HeshamEldib/shifa.git",
     hasDetailsPage: true,
   },
   {
