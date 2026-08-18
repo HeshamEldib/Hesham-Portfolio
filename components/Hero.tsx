@@ -98,7 +98,7 @@ export default function Hero() {
           <div className="relative w-[300px] h-[300px] md:w-[420px] md:h-[420px] border-4 border-white shadow-2xl rounded-full overflow-hidden bg-gray-100">
             {/* تأكد أن اسم الصورة مطابق للملف الموجود في public */}
             <Image
-              src="/H68.png"
+              src="/H75.png"
               alt="Hesham Eldib"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
